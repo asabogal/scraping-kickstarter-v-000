@@ -9,9 +9,9 @@ def create_project_hash
 
     kickstarter.css(".project grid_4").each do |project|
       project[project] = {}
-    
-    end
 
+    end
+    projects
 
   # project: kickstarter.css(".project grid_4").first
   #title: project.css("h2.bbcard_name strong a").text
