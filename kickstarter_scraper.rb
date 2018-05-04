@@ -10,6 +10,7 @@ def create_project_hash
   #image: project.css("div.project-thumbnail a img").attribute("src").value
   #description: project.css("p.bbcard_blurb").text
   #location: project.css("ul.project-meta span.location-name").text
+  #percent-funded: prokect.class("ul.project-stats li.first.funded strong").gsub("$", "").to_i
 
   #____
   #return projects ??
